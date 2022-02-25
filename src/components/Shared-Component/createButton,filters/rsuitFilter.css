@@ -1,0 +1,13 @@
+.rs-picker-has-value .rs-btn .rs-picker-toggle-value, .rs-picker-has-value .rs-picker-toggle .rs-picker-toggle-value{
+    color: #fff;
+}
+
+/* .focus-visible .hover .active */
+.rs-picker-toggle-textbox:focus-visible:active:hover{
+    color: none !important;
+    border:none !important;
+}
+
+.rs-picker-toggle.rs-btn-sm .rs-picker-toggle-textbox{
+    font-family :"Poppins" !important;
+}

@@ -1,0 +1,11 @@
+.required:after {
+    content:" *";
+    color: red;
+  }
+.dropdown-options-style{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: calc(100vw - 900px);
+  display: block;
+}

@@ -1,0 +1,18 @@
+.MuiInput-underline:after {
+}
+.MuiInput-root .MuiInput-underline:before {
+  left: '70px';
+  right: 0;
+  bottom: 0;
+  /* content: "\00a0"; */
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: red;
+}
+
+.makeStyles-tableCell-49 {
+  align-items: top;
+  padding-left: 3px !important;
+}
+

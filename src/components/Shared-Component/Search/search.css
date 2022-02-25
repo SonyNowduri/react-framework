@@ -1,0 +1,14 @@
+.search-icon {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 2px solid #ededed;
+    border-radius: 0px 5px 5px 0px;
+  }
+  .search-user{
+    border: 2px solid #ededed;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    width: 140px;
+  }
+  
+ 

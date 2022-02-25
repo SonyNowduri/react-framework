@@ -1,0 +1,121 @@
+.app-bg-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    width:100%;
+    padding:15px;
+  }
+
+.login-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding:10px;
+    text-align: center;
+    
+}
+.signup-class{
+    /* display: flex; */
+    align-self: flex-start;
+}
+.login-heading{
+    display: flex;
+    /* justify-content: center; */
+    align-self: center;
+    font-size:40px;
+    font-family: "Roboto";
+    
+}
+.hr-style{
+    margin-top:0px;
+   color:#565658;
+   width:90%
+}
+.login-card-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:30px;
+    padding-bottom: none;
+    
+}
+.login-button{
+    background-color:black;
+    color:white;
+    outline: none;
+    border:none;
+    padding:10px;
+    border-radius: 10px;
+    text-decoration: none;
+    width:90%;
+    
+}
+.error{
+    color:red
+}
+.input{
+    width:90%
+}
+.password-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:90%;
+    padding-left:10px;
+}
+.checkbox{
+    margin-top:6px;
+    margin-right:2px;
+    
+}
+.create-account-btn{
+    background-color:white;
+    color:black;
+    outline: none;
+    border:1px solid black;
+    padding:10px;
+    width:90%;
+    margin:10px;
+    font-family: "Roboto";
+}
+.remember-password-container{
+    display: flex;
+    margin:0px;
+    padding: 0px;
+    width:42%;
+    font-size:26px;
+
+}
+.password{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width:576px){
+    .login-heading{
+        font-size: 25px;
+    }
+    .checkbox{
+        margin-top:20px;
+        padding-right:0px;
+
+    }
+    .password-container{
+        width:80%
+    }
+    .password{
+        font-size:13px
+    }
+    .password1{
+        font-size: 13px;
+    }
+}

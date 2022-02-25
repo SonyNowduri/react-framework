@@ -1,0 +1,36 @@
+.date-style .MuiOutlinedInput-input{
+    /* height: 8px !important;  */
+    height: 27px !important;
+    font-size: 11px !important;
+    /* position: relative; */
+     width:73px ;
+     padding: 0px;
+}
+.date-style{
+    /* width: 73px !important; */
+    height: 27px !important;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.date-style  .MuiSvgIcon-root{
+    width:13px;
+    padding: 0px;
+}
+.date-style .MuiInputLabel-outlined {
+    z-index: 1;
+    font-size: 15px;
+    transform: translate(14px, 10px) scale(0.5)
+}
+.date-style .MuiFormLabel-root{
+    font-size: 13px;
+}
+.date-style .MuiOutlinedInput-adornedEnd{
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+ /* .date-style .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+    transform: translate(14px, 12px) scale(1);
+}  */
+

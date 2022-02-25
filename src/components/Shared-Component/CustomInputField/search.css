@@ -1,0 +1,14 @@
+.SearchBoxWrap {
+    border: 2px solid #ededed;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    width: 140px;
+    height: 25px;
+}
+.wrapperSerach{
+    display: flex !important;
+    justify-content: space-between !important;
+    background-color: #f6f6f6 !important;
+    border-radius: 5px Im !important;
+    padding: 10px !important;
+}
