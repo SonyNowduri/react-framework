@@ -10,10 +10,8 @@ export const PageNotFound404 = (props) => {
   const history = useHistory()
 
   const moveToRoot = async () => {
-    const role = await getData('role')
-    role === ROLES.ROLE_OPS_PCC
-      ? history.replace('/pcc-dashboard')
-      : history.replace('/admin')
+    history.replace('/')
+   
   }
 
   return (
