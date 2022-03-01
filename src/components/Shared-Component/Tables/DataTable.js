@@ -213,7 +213,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function EnhancedTable() {
+  const  EnhancedTable = React.forwardRef((props,ref) => {
   const classes = useStyles();
   const [order, setOrder] = React.useState('asc');
   const [orderBy, setOrderBy] = React.useState('calories');
@@ -275,7 +275,7 @@ export default function EnhancedTable() {
   const emptyRows = rowsPerPage - Math.min(rowsPerPage, rows.length - page * rowsPerPage);
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} ref={ref}>
       <Paper className={classes.paper}>
         <EnhancedTableToolbar numSelected={selected.length} />
         <TableContainer>
@@ -351,4 +351,8 @@ export default function EnhancedTable() {
       />
     </div>
   );
-}
+})
+
+EnhancedTable.displayName = "EnhancedTable"
+
+export default EnhancedTable
